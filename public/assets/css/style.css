@@ -1,13 +1,23 @@
 li {
   padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+  margin: auto 0;
+  background: rgb(41, 14, 14);
+  color: aquamarine;
 }
-
+.classy-class {
+  display: flex;
+  margin: auto 0;
+  width: 100%;
+  justify-content: center;
+}
 .label {
   font-weight: bold;
 }
-
+img {
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+}
 .create-update-form {
   padding: 5px;
   margin: 5px;
@@ -16,4 +26,9 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+body {
+  text-align: center;
+  background-color: #faebd7;
+  color: rgb(41, 14, 14);
 }
